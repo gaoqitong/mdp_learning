@@ -16,3 +16,103 @@ sh: 1: ltlfilt: not found
 2018-03-01 18:05:30.263153: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
 2018-03-01 18:05:30.269507: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
 2018-03-01 18:05:30.269541: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (ip-172-31-72-67): /proc/driver/nvidia/version does not exist
+Traceback (most recent call last):
+  File "vm_main.py", line 3, in <module>
+    from env_large import *
+ImportError: No module named env_large
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+sh: 1: ltlfilt: not found
+./ltl2dstar: 1: ./ltl2dstar: ÖÄ!H__PAGEZEROx__TEXT__text__TEXTêÿ˛: not found
+./ltl2dstar: 2: ./ltl2dstar: 6h: not found
+./ltl2dstar: 3: ./ltl2dstar: Ä__stub_helper__TEXT†: not found
+./ltl2dstar: 4: ./ltl2dstar: B†: not found
+./ltl2dstar: 5: ./ltl2dstar: Ä__gcc_except_tab__TEXT‰: not found
+./ltl2dstar: 6: ./ltl2dstar: ò: not found
+./ltl2dstar: 6: ./ltl2dstar: œ˙Ì˛Ä‰: not found
+./ltl2dstar: 7: ./ltl2dstar: Syntax error: "(" unexpected
+2018-03-02 00:17:03.314713: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2018-03-02 00:17:03.321768: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-03-02 00:17:03.321861: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (ip-172-31-72-67): /proc/driver/nvidia/version does not exist
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+sh: 1: ltlfilt: not found
+Exception in file ./LTLPrefixParser.hpp at line 252:
+LTL-Parse-Error
+Traceback (most recent call last):
+  File "vm_main.py", line 67, in <module>
+    env = CurrentWorld("<>(A && <>B) && []!C")
+  File "/home/ubuntu/Seshia_VM/alpha_10e-3/env_large.py", line 96, in __init__
+    self.rabin = Rabin_Automaton(ltl, self.coord_dict)
+  File "/home/ubuntu/Seshia_VM/alpha_10e-3/utils.py", line 20, in __init__
+    rabin_graph = nx.nx_agraph.read_dot("my.dot")
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/networkx/drawing/nx_agraph.py", line 211, in read_dot
+    A = pygraphviz.AGraph(file=path)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/pygraphviz/agraph.py", line 162, in __init__
+    self.read(filename)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/pygraphviz/agraph.py", line 1206, in read
+    raise DotError
+pygraphviz.agraph.DotError
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+sh: 1: ltlfilt: not found
+Exception in file ./LTLPrefixParser.hpp at line 252:
+LTL-Parse-Error
+Traceback (most recent call last):
+  File "vm_main.py", line 67, in <module>
+    env = CurrentWorld("<>(A && <>B) && []!C")
+  File "/home/ubuntu/Seshia_VM/alpha_10e-3/env_large.py", line 96, in __init__
+    self.rabin = Rabin_Automaton(ltl, self.coord_dict)
+  File "/home/ubuntu/Seshia_VM/alpha_10e-3/utils.py", line 20, in __init__
+    rabin_graph = nx.nx_agraph.read_dot("my.dot")
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/networkx/drawing/nx_agraph.py", line 211, in read_dot
+    A = pygraphviz.AGraph(file=path)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/pygraphviz/agraph.py", line 162, in __init__
+    self.read(filename)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/pygraphviz/agraph.py", line 1206, in read
+    raise DotError
+pygraphviz.agraph.DotError
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Exception:
+Error running external tool for LTL -> NBA:
+./ltl2ba  '-f' '(((true) U ((p0) && ((true) U (p1)))) && ((false) V (! (p2)))) && ((true) U ((false) V (p3)))'
+Traceback (most recent call last):
+  File "vm_main.py", line 67, in <module>
+    env = CurrentWorld("<>(A && <>B) && []!C")
+  File "/home/ubuntu/Seshia_VM/alpha_10e-3/env_large.py", line 96, in __init__
+    self.rabin = Rabin_Automaton(ltl, self.coord_dict)
+  File "/home/ubuntu/Seshia_VM/alpha_10e-3/utils.py", line 20, in __init__
+    rabin_graph = nx.nx_agraph.read_dot("my.dot")
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/networkx/drawing/nx_agraph.py", line 211, in read_dot
+    A = pygraphviz.AGraph(file=path)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/pygraphviz/agraph.py", line 162, in __init__
+    self.read(filename)
+  File "/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/pygraphviz/agraph.py", line 1206, in read
+    raise DotError
+pygraphviz.agraph.DotError
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/matplotlib/__init__.py:962: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p27/lib/python2.7/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+2018-03-02 00:23:04.417159: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2018-03-02 00:23:04.424478: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_UNKNOWN
+2018-03-02 00:23:04.424529: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:145] kernel driver does not appear to be running on this host (ip-172-31-72-67): /proc/driver/nvidia/version does not exist

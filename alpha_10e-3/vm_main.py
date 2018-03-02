@@ -1,6 +1,6 @@
 from __future__ import division
 import numpy as np
-from env_static import *
+from env_large import *
 from collections import defaultdict
 import random
 from graphviz import Source
@@ -66,7 +66,7 @@ def greedy_action(state, truncation):
 
 env = CurrentWorld("<>(A && <>B) && []!C")
 
-ALPHA = 0.001
+ALPHA = 0.0001
 GAMMA = 0.7
 SEED = 365
 MAX_EPI = 300000

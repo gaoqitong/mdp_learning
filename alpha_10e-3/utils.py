@@ -15,7 +15,7 @@ class Rabin_Automaton(object):
 
         with open("my.ltl", "w") as ltlfile:
             ltlfile.write(ltl)
-        os.system("ltlfilt -l -F \"my.ltl\" --output=\"my.ltl\" ")
+        os.system("./ltlfilt -l -F \"my.ltl\" --output=\"my.ltl\" ")
         os.system("./ltl2dstar --ltl2nba=spin:ltl2ba --stutter=no --output-format=dot my.ltl my.dot")
         rabin_graph = nx.nx_agraph.read_dot("my.dot")
         rabin_graph.remove_nodes_from(["comment", "type"])
